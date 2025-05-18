@@ -1,0 +1,41 @@
+# Core CV libraries
+opencv-python==4.9.0.80
+opencv-contrib-python==4.9.0.80
+
+# GPU-enabled TensorFlow (for CUDA-enabled systems)
+# tensorflow
+
+# PyTorch with CUDA 11.8 (use pip from official instructions if unsure)
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+# Optional: Use +cu121 if you're on CUDA 12.1 (change URLs or install via pip index URL)
+
+# Mediapipe (note: no GPU acceleration in Python version as of now)
+mediapipe==0.10.9
+
+# Image processing and utility libraries
+matplotlib
+pillow
+scikit-image
+scikit-learn
+numpy
+pandas
+
+# For object detection and annotation
+labelImg
+pycocotools
+
+# OCR support
+pytesseract
+
+# Optional DeepFace module for facial expression, age/gender detection
+deepface
+
+# Streamlit or Flask for GUI/web-based interfaces
+streamlit
+flask
+
+# Video and audio
+moviepy
+imageio
